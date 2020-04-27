@@ -1,0 +1,96 @@
+===Base de datos taller3
+
+== Estructura de tabla para la tabla administrador
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|Nombre|varchar(300)|No|
+|Apellido|varchar(300)|No|
+|Direccion|varchar(300)|No|
+|Correo|varchar(300)|No|
+|Contraseña|varchar(300)|No|
+== Volcado de datos para la tabla administrador
+
+|1|ander|parra|cra43|anderparra1239|anderparra
+|2|yarumo|parra|ar|ADA|ander
+
+..........................................................................
+
+== Estructura de tabla para la tabla producto
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|cantidad|int(11)|No|
+|Descripcion|varchar(300)|No|
+|Marca|varchar(300)|No|
+|Precio|int(11)|No|
+|Proveedor|varchar(300)|No|
+== Volcado de datos para la tabla producto
+
+|2|20|casco Halo|shaft|400000|1
+|3|20|Guantes de proteccion|Secure|400000|2
+|4|10|Cadena de arrastre|kit|60000|3
+
+........................................................................
+
+== Estructura de tabla para la tabla proveedor
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|Nombre|varchar(300)|No|
+|telefono|varchar(300)|No|
+|Direccion|varchar(300)|No|
+|Productos|varchar(300)|No|
+== Volcado de datos para la tabla proveedor
+
+|1|Shaft|3124456454|Cra54|Cascos
+|2|Acceosrios la !5 SA|32423435345|Cra 15 # 54|Accesorios
+|3|Respuestos15 SA|3124456453|Cra 15 #23|Repuestos
+
+...........................................................................
+
+
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|Nombre|varchar(300)|No|
+|Apellido|varchar(300)|No|
+|Direccion|varchar(300)|No|
+|Correo|varchar(300)|No|
+|Contraseña|varchar(300)|No|
+== Volcado de datos para la tabla usuarios
+
+|6|Anderson|Parra Parra|cra54 11-08|anderparra1250@gmail.com|anderson
+|7|Anderson|Parra Parra|cra54 11-08|anderparra1250@gmail.com|anderson
+|10|Duvan|Cordoba|Carr 54|nathalymiss29@gmail.com|12345
+|11|Juan|Urive|cra54|juandavid453@hotmail.com|12345
+|12|Ivan|Muñoz|Carrera 47B|Ivan-d-m@hotmail.com|ultras1992
+
+........................................................................
+
+
+
+== Estructura de tabla para la tabla venta
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int(11)|No|
+|Fecha_Venta|varchar(300)|No|
+|id_cliente|int(11)|No|
+|id_producto|int(11)|No|
+|cantidad|int(11)|No|
+|subtotal|int(11)|No|
+|Total|int(11)|No|
+== Volcado de datos para la tabla venta
+
+|43|Tue Nov 12 11:03:17 COT 2019|6|4|2|60000|120000
